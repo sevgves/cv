@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="resume, cv, yevgeniy, html, css">
+    <meta name="description" content="мое резюме сделанное на уроках по HTML/CSS">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="container">
+
+    <body>
+        <div class="card info">
+            <img src="img/avatar.png" alt="avatar" width="100" class="avatar">
+
+            <div class="card info-text">
+                <h1>Yevgeniy</h1>
+
+                <p>Я изучаю курс по HTML/CSS, чтобы приступить к изучению JavaScript.</p>
+                <p>Мне нравиться учиться новому...</p>
+            </div>
+        </div>
+        <div class="card hob">
+            <h2>Мне интересны</h2>
+            <!-- ul/li{Element $}*5 tab -->
+            <ul class="list">
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="card exp">
+            <h2>Мой опыт работы</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>KEGOC</td>
+                        <td>2008</td>
+                        <td>Инженер</td>
+                    </tr>
+                    <tr>
+                        <td>Rubezh</td>
+                        <td>2014</td>
+                        <td>Технический специалист</td>
+                    </tr>
+                    <tr>
+                        <td>ANT Technology</td>
+                        <td>2018</td>
+                        <td>Ведущий инженер</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Имя:</label>
+                    <input type="text" id="name" placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+        <hr style="margin-bottom: 5px;">
+        <div class="links">
+            <a href="https://200ok.kz" target="_blank">Мой сайт - 200ok.kz </a>
+        </div>
+    </body>
+</div>
+
+</html>
